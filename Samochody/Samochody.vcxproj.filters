@@ -24,12 +24,48 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Samochod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Czlowiek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SamochodOsobowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SamochodCiezarowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Van.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maluch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Samochody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Samochod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Czlowiek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SamochodOsobowy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SamochodCiezarowy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Van.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maluch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
