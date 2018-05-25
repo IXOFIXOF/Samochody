@@ -6,5 +6,10 @@ class CVan :
 public:
 	CVan();
 	virtual ~CVan();
+
+	void UstalLadownosc();
+	void UstalPojemnosc() {}
+
+	void print(ostream& sru) const;
 };
 

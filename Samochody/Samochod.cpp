@@ -18,11 +18,16 @@ void CSamochod::UstalRodzajPaliwa( string RodzajPaliwa )
 {
 	m_RodzajPaliwa = RodzajPaliwa;
 }
-string CSamochod::PobierzNazwe()
+string CSamochod::PobierzNazwe() const
 {
 	return m_NazwaSamochodu;
 }
-string CSamochod::PobierzRodzajPaliwa()
+string CSamochod::PobierzRodzajPaliwa() const
 {
 	return m_RodzajPaliwa;
+}
+ostream & operator<<(ostream & sru, CSamochod* oSamochod)
+{
+	oSamochod->print(sru);
+	return sru;
 }
