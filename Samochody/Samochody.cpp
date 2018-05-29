@@ -145,7 +145,9 @@ CCzlowiek DodajCzlowieka()
 	CCzlowiek oCzlowiek;
 	cout << "Podaj nazwe czlowieka: ";
 	string nazwa;
-	cin >> nazwa;
+	cin.clear();
+	cin.ignore();
+	getline(cin, nazwa);
 	oCzlowiek.UstalNazweCzlowieka(nazwa);
 	return oCzlowiek;
 }
@@ -169,7 +171,11 @@ CSamochod* DodajSamochod()
 	{
 		cout << "Podaj nazwe i rodzaj paliwa: ";
 		string nazwa, rodzajPaliwa;
-		cin >> nazwa >> rodzajPaliwa;
+
+		cin.clear();
+		cin.ignore();
+		getline(cin, nazwa);
+		getline(cin, rodzajPaliwa);
 		pSamochod->UstalNazwe(nazwa);
 		pSamochod->UstalRodzajPaliwa(rodzajPaliwa);
 		pSamochod->UstalLadownosc();
